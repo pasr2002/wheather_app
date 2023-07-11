@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="weather-icons.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Enter a city">
+      <button id="search-button">Search</button>
+    </div>
+    <div id="weather-card" class="weather-card">
+      <h2 id="location">Loading...</h2>
+      <h3 id="temperature">Loading...</h3>
+      <div id="weather-icon"></div>
+      <h3 id="description">Loading...</h3>
+    </div>
+    <div id="forecast-container" class="forecast-container">
+      <h2>5-Day Forecast</h2>
+      <div id="forecast-cards" class="forecast-cards"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
